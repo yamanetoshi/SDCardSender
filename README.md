@@ -1,12 +1,12 @@
 SDCardSender
 ============
 
-This is ACRA plugin for saving crush report to SDCard.
-- crush report is printed /sdcard/bug.txt
+This is ACRA plugin for saving crash report to SDCard.
+- crash report is printed /sdcard/bug.txt
 
 ## installation
 - clone this repository
-- import this repository your Eclipse project
+- import this repository as your new Eclipse project
 - copy bin/sdcardsender.jar to your Android project's libs folder
 
 ## Usage
