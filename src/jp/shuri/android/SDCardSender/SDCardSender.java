@@ -27,7 +27,6 @@ public class SDCardSender implements ReportSender {
 	    }
 
         for (final Object key : report.keySet()) {
-            //final Object preliminaryValue = finalReport.get(key);
         	final Object preliminaryValue = report.get(key);
             final Object value = (preliminaryValue == null) ? "" : preliminaryValue;
             pw.println(key.toString() + " : " + value.toString());
